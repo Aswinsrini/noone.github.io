@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>INFORMATION ABOUT STUDENTS</h1>
+        <img src="The-Case-for-Registering-Online-Shoppers.webp" class ="photo">
+        <form method="post">
+           <label for="fname" required>First name:</label>
+           <input type="text" required minlength="3" maxlength="20">
+           <br><br>
+
+           <label for="lname">Last name:</label>
+           <input type="text" required minlength="1" maxlength="15">
+           <br><br>
+           
+           <label for="roll">Roll number:</label>
+           <input type="text"  required minlength="1" maxlength="9">
+           <br><br>
+
+           <label>Branch:</label>
+           <select name="branch" >
+            <option value="1">CSE</option>
+            <option value="2">ECE</option>
+            <option value="3">AIDS</option>
+            <option value="4">AIML</option>
+            <option value="5">MECH</option>
+            <option value="6">CIVIL</option>
+            <option value="7">EIE</option>
+           </select>
+           <br><br>
+
+           <label>Date of Birth</label>
+           <input type="date" required>
+           <br><br>
+
+          <input type="submit"  value="submit" />
+
+        </form>
+        <marquee behavior="" direction="">this is important form</marquee>
+    </body>
+</html>

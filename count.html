@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter app</title>
+  </head>
+  <body>
+    <button id="but" onclick="happen_in()">increment</button>
+    <button id="but" onclick="happen_de()">decrement</button>
+    <div id="count">0</div>
+    <script>
+      let a = 1;
+      function happen_in() {
+        var count = document.getElementById("count");
+        count.innerHTML = a;
+        a += 1;
+      }
+      function happen_de() {
+        var count = document.getElementById("count");
+        count.innerHTML = a;
+        a -= 1;
+      }
+    </script>
+  </body>
+</html>
